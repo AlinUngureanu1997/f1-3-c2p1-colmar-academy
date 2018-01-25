@@ -1,0 +1,258 @@
+html{
+	font-size: 18px;
+
+}
+
+body{
+	font-family: Helvetica;
+	line-height: 1.4;
+}
+
+.container{
+	max-width: 960px;
+	margin:0 auto;
+}
+
+.header{
+	background-color: none;
+	color: black;
+	display: block;
+}
+
+.small{
+	display: none;
+}
+
+ul{
+	list-style: none;
+	margin:0;
+	padding-top: 35px;
+}
+
+
+
+.colmar{
+	color: black;
+}
+
+nav ul{
+	display: flex;
+	align-items: right;
+	justify-content: space-between;
+	padding:0.2rem 0;
+	font-size: 13px;
+}
+
+
+
+
+
+.button{
+	border-radius: 90px;
+	padding:8px 20px;
+	height: 40px;
+	width: 40px;
+	color: white;
+	font-family: serif;
+	background-color: red;
+
+
+
+
+}
+
+.button:hover{
+	background-color: black;
+	color:white;
+}
+
+.banner{
+	background-color: lightgrey;
+	height: 570px;
+}
+
+.le{
+	width: 350px;
+	height: 150px;
+	padding-right: 0px;
+	
+}
+
+.ex .le{
+	display: flex;
+	text-align: center;
+
+}
+
+.ex{
+
+	text-align: right;
+	padding-bottom: 450px;
+	padding-left: 0px;
+	padding-top: 0px;
+}
+
+.le img{
+
+	width: 600px;
+	height: 500px;
+	padding: 32px 24px;
+
+}
+
+.motans{
+	height: 400px;
+	width: 60%;
+	display: block;
+	padding-top: 45px;
+	object-position: left;
+	text-align: left;
+	color: darkgrey;
+
+}
+
+.motans h5{
+	font-family: Exo;
+}
+
+
+.motans img{
+	width: 570px;
+	height: 300px;
+	display: flex;
+}
+
+.right-side{
+	display: inline-block;
+	width: 500px;
+	height: 750px;
+	padding-top: 45px;
+	padding-left: 100px;
+	font-family: Muli;
+}
+
+.orientation{
+	display: inline-block;
+}
+
+.right-side img{
+	width: 35%;
+	height: auto;
+	text-align: right;
+	object-position: right;
+}
+
+.second-banner{
+	display: flex;
+}
+
+a{
+	color: skyblue;
+	text-decoration: underline;
+	font-size: 15px;
+}
+
+a:visited{
+	color: black;
+}
+
+.start{
+	display: inline-flex;
+	justify-content: space-between;
+	font-family: Ubuntu;
+	padding-top: 50px;
+
+
+}
+
+
+.start img{
+	height: auto;
+	width: 250px;
+}
+
+
+.fresh{
+	display: inline-flex;
+	justify-content: space-between;
+	font-family: Ubuntu;
+}
+
+.fresh img{
+	height: auto;
+	width: 250px;
+}
+
+.learning{
+	text-align: center;
+	
+}
+
+.thesis{
+	text-align: center;
+	font-family: Exo;
+}
+
+.video{
+	width: 600px;
+	display: block;
+}
+
+.nau{
+	display: inline-block;
+}
+
+.right h2{
+	font-size:1.5rem; 
+}
+
+.right h4{
+	font-size: 1rem;
+}
+
+.right img{
+	width: 100px;
+	height: 90px;
+}
+
+.now h1{
+	font-size: 1.5rem;
+}
+
+.now h4{
+	font-size: 1rem;
+}
+
+.now img{
+	width: 100px;
+	height: 90px;
+}
+
+
+.bottom{
+	display: flex;
+	padding-top: 50px;
+}
+
+
+footer{
+
+	display: flex;
+	justify-content: space-between;
+}
+
+@media only screen and (max-width: 480px){
+	body {
+		width: 270px;
+	}
+
+	.banner{
+		width: 270px;
+		display: inline-flex;
+	}
+
+	footer{
+		width: 270px;
+	}
+	
+}
